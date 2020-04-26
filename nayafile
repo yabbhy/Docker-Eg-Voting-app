@@ -1,6 +1,7 @@
 pipeline{
 	Stages{
-	steps{
+	steps{(gitCheckOut)
+	
 		sh'pwd'
 		sh 'ls -lrt'
 }
