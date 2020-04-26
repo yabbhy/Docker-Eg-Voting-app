@@ -1,0 +1,8 @@
+pipeline{
+	Stages{
+	steps{
+		sh'pwd'
+		sh 'ls -lrt'
+}
+}
+}
